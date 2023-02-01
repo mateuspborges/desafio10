@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('./fontes/idroid.otf');
+    font-weight: normal;
+}
+
+:root{
+    --color: #007020;
+    --color1:#00FC48;
+    --color2:#01F045;
+    --color3:#00D63D;
+    --color5: white;
+    --font-teste: 'Orbitron', sans-serif;
+    --font-padrao: Arial, Verdana, Helvetica;
+    --font-destaque:'Bebas Neue', cursive;
+    --font-android: 'android';
+}
+
+
+body{
+    font-family:   var(--font-padrao);
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+
+header{
+    
+    color: var(--color5);
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to top, #007020, #00FC48, #1aae44, #047e27) ;
+   
+}
+header > h1{
+    font-family: var(--font-destaque);
+}
+header > nav{
+    text-align: left;
+    
+    
+}
+ nav > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition-duration: 1s;
+    border-radius: 18px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    
+    font-size: 20px;
+    
+}
+
+
+header > nav >:hover{
+    background-color: rgba(112, 215, 112, 0.685);
+    color: black;
+    
+}
+h1{
+    color:#085b13 ;
+    font-family: var(--font-android);
+}
+h2{
+    background-color: #1ce6568c;
+    color:#085b13 ;
+    font-family: var(--font-android);
+}
+
+
+
+main{
+    
+    margin: 0px 60px 0px 60px;
+    padding: 15px;
+    background-color: white;
+}
+main > h1{
+    font-family: var(--font-android);
+}
+main > h2{
+    font-family: var(--font-teste);
+}
+main > article > picture > img{
+    width: 100%;
+}
+.android > img{
+    max-width: 350px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    
+}
+main > article >iframe{ 
+    width: 100%;
+    height: 500px;
+}
+
+
+abbr{
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+footer{
+    background-color: #085b13;
+    color: white;
+    text-align: center;
+    
+}
+ul{
+    list-style-type: '\2714';
+background-color: #46EB5B;
+margin: 0px ;
+text-align: justify;
+border-radius: 0px 0px 8px 8px;
+columns: 2;
+  
+
+
+}
+li{
+    
+    background-color: #46EB5B;
+    
+}
+.extra{
+    
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #007020;
+    padding: 8px;
+}
+.extra2{
+    margin: 0;
+    background-color: #46EB5B;
+}
+aside{
+    margin-top: 5px;
+    background-color:#46EB5B ;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px black;
+    
+}
